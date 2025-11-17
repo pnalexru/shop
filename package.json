@@ -1,0 +1,26 @@
+{
+	"name": "shop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode=production",
+		"watch": "webpack --watch --mode=development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pnalexru/shop.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/pnalexru/shop/issues"
+	},
+	"homepage": "https://github.com/pnalexru/shop#readme",
+	"devDependencies": {
+		"webpack": "^5.65.0",
+		"webpack-cli": "^4.9.1"
+	}
+}
